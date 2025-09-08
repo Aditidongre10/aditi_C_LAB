@@ -1,3 +1,5 @@
+//Write a C program to add two numbers, take number from user.
+
 #include <stdio.h>
 
 int main() {
@@ -11,4 +13,5 @@ int main() {
 
     printf("sum =%d",sum);
     return 0;
+
 }
