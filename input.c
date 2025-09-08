@@ -2,16 +2,18 @@
 
 #include <stdio.h>
 
-int main() {
+int main(){
 
-    int a,b,sum;
 
-    printf("enter two number:");
-    scanf(%d %d ,&a,&b);
+    char name[50];
+    int age;
 
-    sum=a+b;
+    printf("enter your age");
+    scanf("%d",&age);
 
-    printf("sum =%d",sum);
+    printf("\n name: %s",name);
+    printf("\nage %d",age);
     return 0;
 
 }
+
